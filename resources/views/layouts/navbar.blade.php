@@ -1,3 +1,0 @@
-@section('navbar')
-    navbar
-@endsection

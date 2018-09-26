@@ -16,12 +16,12 @@ let gulp = require("gulp"),
 
 const path = {
     sass: {
-        src: "resources/sass/**/**.scss",
-        dest: "public/css"
+        src: "resources/sass/**/**/*.scss",
+        destination: "public/css"
     },
     typescript: {
-        src: "resources/ts/**/*.ts",
-        dest: "public/js"
+        src: "resources/ts/**/**/*.ts",
+        destination: "public/js"
     }
 };
 
@@ -43,7 +43,7 @@ gulp.task('sass', () => {
             }
         }))
         .pipe(sass())
-        .pipe(gulp.dest(path.sass.dest))
+        .pipe(gulp.dest(path.sass.destination))
         .pipe(notify({
             message: "Sass compiled!",
             onLast: true
@@ -59,7 +59,7 @@ gulp.task('typescript', () => {
             }
         }))
         .pipe(tsProject())
-        .pipe(gulp.dest(path.typescript.dest))
+        .pipe(gulp.dest(path.typescript.destination))
         .pipe(notify({
             message: "Typescript compiled!",
             onLast: true

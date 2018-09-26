@@ -8,16 +8,16 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="../../sass/app.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
 <body>
-    @yield('layouts.navbar')
+    @include('includes.navbar')
     <div class="content-container">
         @section('content')
         @show
     </div>
     <div class="footer-container">
-        @yield('layouts.footer')
+        @include('includes.footer')
     </div>
 </body>
 </html>

@@ -1,4 +1,10 @@
 body {
-	background-color: $color-gray;
+	background-color: $color-black;
 	color: $color-white;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-decoration: none;
 }

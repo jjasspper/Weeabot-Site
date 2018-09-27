@@ -6,7 +6,6 @@
  */
 
 requirejs.config({
-	urlArgs: 'cache=' + (new Date()).getTime(),
 	paths: {
 		//Application files
 		"loader": "src/loader",

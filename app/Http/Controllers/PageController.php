@@ -4,7 +4,7 @@
 	
 	class PageController extends Controller {
 		public function getHome() {
-			$test = 'testt';
+			$test = 'Dit is een test';
 			return view('pages.home')->with('test', $test);
 		}
 	}

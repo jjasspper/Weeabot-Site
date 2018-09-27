@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<link rel="stylesheet" href="css/app.css">
+	<link href="css/app.css?ver={{hash('crc32', date('h:i:s'))}}" rel="stylesheet">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,5 +15,5 @@
 	</div>
 	@include('includes.footer')
 </body>
-<script data-main="js/app.js" src="js/require.js" type="text/javascript"></script>
+<script data-main="js/app.js?ver={{hash('crc32', date('h:i:s'))}}" src="js/require.js" type="text/javascript"></script>
 </html>

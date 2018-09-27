@@ -4,7 +4,8 @@
 	
 	class PageController extends Controller {
 		public function getHome() {
-			$test = 'Dit is een test';
-			return view('pages.home')->with('test', $test);
+			$cacheHash = date('h:i:s');
+			$cacheHash = hash('crc32', $cacheHash, '');
+			return view('pages.home')->with('test', $cacheHash);
 		}
 	}

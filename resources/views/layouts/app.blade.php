@@ -18,4 +18,5 @@
 	</div>
 	@include('includes.footer')
 </body>
+<script data-main="js/app.js" src="js/require.js" type="text/javascript"></script>
 </html>

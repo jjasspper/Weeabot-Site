@@ -60,7 +60,7 @@ gulp.task("script", function () {
                 this.emit("end");
             }
         }))
-        //.pipe(cache("scripts"))
+        .pipe(cache("scripts"))
         .pipe(amdOptimize("app",
             {
                 name: "app",
@@ -68,9 +68,9 @@ gulp.task("script", function () {
                 baseUrl: path.script.baseSrc
             }
         ))
-        //.pipe(remember("scripts"))
+        .pipe(remember("scripts"))
         .pipe(concat("app.js"))
-        //.pipe(uglify())
+        .pipe(uglify())
         .pipe(gulp.dest(path.script.destination))
         .pipe(notify({
             message: "Scripts compiled!",

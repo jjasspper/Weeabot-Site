@@ -5,7 +5,7 @@
  * Time: 23:24
  */
 
-define([], function (){
+define(['jquery'], function ($){
    'use strict';
 
    return {

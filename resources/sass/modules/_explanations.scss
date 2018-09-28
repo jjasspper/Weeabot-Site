@@ -1,0 +1,34 @@
+.explanation {
+	&__text {
+		&__container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: $color-gray;
+			height: 100%;
+			width: 50%;
+		}
+		
+		&__wrapper {
+			margin: 0 auto;
+			width: 60%;
+		}
+	}
+	
+	&__title {
+	
+	}
+	
+	&__icon {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: $color-black;
+		height: 100%;
+		width: 50%;
+		
+		& > i {
+			font-size: 85px;
+		}
+	}
+}

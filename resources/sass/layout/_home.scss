@@ -1,90 +1,17 @@
-.home {
-	&__header {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		background-image: url("../img/discord-background.png");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
-		height: 100vh;
-		
-		&__title {
-			text-align: center;
-			font-size: 40px;
-			width: 75%;
-		}
-	}
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../img/discord-background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
 	
-	&__features-container {
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-	}
-	
-	&__features {
-		background-color: $color-gray;
-		
-		&__title {
-			text-align: center;
-			padding-top: 50px;
-		}
-	}
-	
-	&__feature {
-		background-color: $color-black;
-		border: 1px solid $color-black;
-		border-radius: 10px;
-		height: 300px;
-		width: 300px;
-		margin: 50px 30px;
-		
-		&__wrapper {
-			height: 100%;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-		}
-		
-		&__icon {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			margin-bottom: 25px;
-			
-			& > i {
-				font-size: 75px;
-				
-				&.is-purple {
-					color: $color-main;
-				}
-				
-				&.is-blue {
-					color: $color-blue;
-				}
-				
-				&.is-orange {
-					color: $color-orange;
-				}
-				
-				&.is-red {
-					color: $color-red;
-				}
-			}
-			
-		}
-		
-		&__description {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			text-align: center;
-			margin: 0 auto;
-			width: 85%;
-		}
+	&__title {
+		text-align: center;
+		font-size: 40px;
+		width: 75%;
 	}
 }

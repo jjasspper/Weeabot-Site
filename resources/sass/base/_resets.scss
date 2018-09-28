@@ -12,3 +12,21 @@ a {
 h1 {
 	font-size: 25px;
 }
+
+i {
+	&.is-purple {
+		color: $color-main;
+	}
+	
+	&.is-blue {
+		color: $color-blue;
+	}
+	
+	&.is-orange {
+		color: $color-orange;
+	}
+	
+	&.is-red {
+		color: $color-red;
+	}
+}

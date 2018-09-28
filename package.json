@@ -9,12 +9,17 @@
   "author": "Jasper van Hienen",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^10.11.0",
+    "amd-optimize": "^0.6.1",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^6.0.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-concat": "^2.6.1",
     "gulp-notify": "^3.2.0",
     "gulp-plumber": "^1.2.0",
+    "gulp-remember": "^1.0.1",
     "gulp-sass": "^4.0.1",
-    "gulp-typescript": "^5.0.0-alpha.3",
-    "typescript": "^3.0.3"
-  }
+    "gulp-uglify": "^3.0.1",
+    "laravel-mix": "^2.1.14"
+  },
+  "devDependencies": {}
 }

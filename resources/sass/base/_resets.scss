@@ -1,0 +1,36 @@
+body {
+	background-color: $color-black;
+	color: $color-white;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+h2 {
+    margin: none;
+}
+
+i {
+	&.is-purple {
+		color: $color-main;
+	}
+	
+	&.is-blue {
+		color: $color-blue;
+	}
+	
+	&.is-orange {
+		color: $color-orange;
+	}
+	
+	&.is-red {
+		color: $color-red;
+	}
+}

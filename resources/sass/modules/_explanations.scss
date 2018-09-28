@@ -4,9 +4,24 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
+            flex-direction: row;
 			background-color: $color-gray;
 			height: 100%;
 			width: 50%;
+            
+            @media screen and (max-width: $break-explanations) {
+                width: 99%;
+            }
+            
+            &.is-even {
+            
+            }
+            
+            &.is-odd {
+                @media screen and (max-width: $break-explanations) {
+                    background-color: $color-black;
+                }
+            }
 		}
 		
 		&__wrapper {
@@ -15,8 +30,35 @@
 		}
 	}
 	
+    &__side {
+        width: 1%;
+        height: 100%;
+        display: none;
+    
+        @media screen and (max-width: $break-explanations) {
+            display: block;
+        }
+        
+        &.is-purple {
+            background-color: $color-main;
+        }
+    
+        &.is-blue {
+            background-color: $color-blue;
+        }
+    
+        &.is-orange {
+            background-color: $color-orange;
+        }
+    
+        &.is-red {
+            background-color: $color-red;
+        }
+    }
+    
 	&__title {
-	
+        margin-top: 0;
+        margin-bottom: 20px;
 	}
 	
 	&__icon {
@@ -26,7 +68,11 @@
 		background-color: $color-black;
 		height: 100%;
 		width: 50%;
-		
+        
+        @media screen and (max-width: $break-explanations) {
+            display: none;
+        }
+        
 		& > i {
 			font-size: 85px;
 		}

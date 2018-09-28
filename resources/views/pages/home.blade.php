@@ -3,6 +3,7 @@
 @section('content')
 	<div class="header">
 		<span class="header__title">The bot you have always, secretly needed.</span>
+        <button class="button">Invite now!</button>
 	</div>
 
 	<div class="features">
@@ -64,7 +65,7 @@
 	<div class="row__parallax" id="about">How does it work?</div>
 
 	<div class="row__explanation">
-		<div class="explanation__text__container">
+		<div class="explanation__text__container is-even">
 			<div class="explanation__text__wrapper">
 				<h2 class="explanation__title">Weeab-Levels</h2>
 				<span class="explanation__text">
@@ -74,6 +75,7 @@
 				</span>
 			</div>
 		</div>
+        <div class="explanation__side is-blue"></div>
 		<div class="explanation__icon">
 			<i class="material-icons is-blue">
 				category
@@ -86,7 +88,8 @@
 				show_chart
 			</i>
 		</div>
-		<div class="explanation__text__container">
+        <div class="explanation__side is-orange"></div>
+		<div class="explanation__text__container is-odd">
 			<div class="explanation__text__wrapper">
 				<h2 class="explanation__title">Server Limits</h2>
 				<span class="explanation__text">
@@ -98,7 +101,7 @@
 		</div>
 	</div>
 	<div class="row__explanation">
-		<div class="explanation__text__container">
+		<div class="explanation__text__container is-even">
 			<div class="explanation__text__wrapper">
 				<h2 class="explanation__title">Weeab-Words</h2>
 				<span class="explanation__text">
@@ -108,6 +111,7 @@
 				</span>
 			</div>
 		</div>
+        <div class="explanation__side is-red"></div>
 		<div class="explanation__icon">
 			<i class="material-icons is-red">
 				text_format
@@ -120,7 +124,8 @@
 				child_friendly
 			</i>
 		</div>
-		<div class="explanation__text__container">
+        <div class="explanation__side is-purple"></div>
+		<div class="explanation__text__container is-odd">
 			<div class="explanation__text__wrapper">
 				<h2 class="explanation__title">The Weeaboo rank</h2>
 				<span class="explanation__text">

@@ -8,7 +8,7 @@
 
 	<div class="features">
 
-		<h1 class="features__title">What Weeaboo-Detector does:</h1>
+		<h1 class="features__title">What Weeaboo-Detector does</h1>
 
 		<div class="features__container">
 			<div class="feature">
@@ -43,7 +43,7 @@
 						</i>
 					</div>
 					<div class="feature__description">
-						Automaticaly kicks weeaboos from your server when things are getting out of hand.
+						Automatically kicks weeaboos from your server when things are getting out of hand.
 					</div>
 				</div>
 			</div>
@@ -55,7 +55,7 @@
 						</i>
 					</div>
 					<div class="feature__description">
-                        Automaticaly bans weeaboos that are a severe danger for humanity. Because someone has to do it.
+                        Automatically bans weeaboos that are a severe danger for humanity. Someone has to do the dirty work.
 					</div>
 				</div>
 			</div>
@@ -67,11 +67,11 @@
 	<div class="row__explanation">
 		<div class="explanation__text__container is-even">
 			<div class="explanation__text__wrapper">
-				<h2 class="explanation__title">Weeab-Levels</h2>
+				<h2 class="explanation__title">Weeb-Levels</h2>
 				<span class="explanation__text">
-					When a member types one of the blacklisted Weeab-Words, it will be added to the watchlist.
-					This watchlist tracks how weeab the member is by saving a Weeab-Level.
-					This Weeab-Level will increment every time a member says one the blacklisted words (see below).
+					When a member types one of the blacklisted Weeb-Words, it will be added to the watchlist.
+					This watchlist tracks how weeb the member is by saving a Weeb-Level.
+					This Weeb-Level will increment every time a member says one the blacklisted words (see below).
 				</span>
 			</div>
 		</div>
@@ -95,7 +95,7 @@
 				<span class="explanation__text">
 					Each server has its own customizable server limits.
 					These limits indicate when a member should get assigned a rank, get kicked or banned.
-					These actions will only fire when a members' weeab-level has risen above your own defined server limits.
+					These actions will only fire when a members' weeb-level has risen above your own defined server limit.
 				</span>
 			</div>
 		</div>
@@ -103,11 +103,11 @@
 	<div class="row__explanation">
 		<div class="explanation__text__container is-even">
 			<div class="explanation__text__wrapper">
-				<h2 class="explanation__title">Weeab-Words</h2>
+				<h2 class="explanation__title">Weeb-Words</h2>
 				<span class="explanation__text">
 					This bot contains a global list of words that weeaboos are know to say.
 					Each one of these words has its own level that indicates how severe a word is.
-					The level assigned to this word will be added the the members' Weeab-Level when said.
+					The level assigned to this word will be added the the members' Weeb-Level when said.
 				</span>
 			</div>
 		</div>

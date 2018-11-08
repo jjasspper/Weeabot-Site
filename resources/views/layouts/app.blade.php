@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="robots" content="noindex">
+	<meta name="description" content="Weeaboo-Detector (Weeabot) is a discord bot that detects weeaboos, and gives them what they deserve.">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93933039-2"></script>

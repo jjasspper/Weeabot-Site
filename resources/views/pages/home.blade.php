@@ -3,7 +3,7 @@
 @section('content')
 	<div class="header">
 		<span class="header__title">The bot you have always, secretly needed.</span>
-        <a href="https://discordapp.com/oauth2/authorize?client_id=423130765090357248&scope=bot&permissions=939617302" target="_blank" class="button">Invite now!</a>
+        <a href="https://discordapp.com/oauth2/authorize?client_id=423130765090357248&scope=bot&permissions=268446726" target="_blank" class="button">Invite now!</a>
 	</div>
 
 	<div class="features">
